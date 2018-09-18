@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <style>
+            /*Formatação do nav*/
+            #davi{
+                margin-left: 0px;
+                margin-right: 0px;
+                background-color: #CDC9C9;
+            }
+            #textonav{
+                color:red;
+                
+            }
+            #textnav{
+                color:black;
+                
+            }
+            /*Formatação do nav*/
+            
+            #top{
+                margin-top: 12px;
+            }
+            #card{
+                margin-top: 20px;
+
+            }
+            
+ /*Formatação do rodapé*/
+            #etecimg{
+                margin-top: 20px;
+                width: 100px;
+                height:30px;
+
+            }
+            footer{
+                margin-top:20px; 
+                background-color: #212529;
+
+            }
+            #imgrodape{
+                width: 150px;
+                height: 120px;
+                margin-top:20px; 
+            }
+            
+             #font{
+                color:white;
+                margin-top: 20px;
+            }
+    #fonte{
+                color:white;
+            }
+            body{
+                background-color:#8B8989;
+            }
+            hr{
+                background-color: red;
+            } 
+          /*Formatação do rodapé*/
+
+        </style>
+    </head>
+
+    <body>
+
+       <ul  id="davi" class="nav nav-tabs">
+            <li  class="nav-item">
+    <a  id="textonav" class="nav-link" >  <strong>-Etec Pedro Ferreira Alves-</strong></a> 
+            </li>
+            <li class="nav-item">
+                <a id="textnav" class="nav-link active" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a id="textnav" class=" nav-link" href="porque.html">Sobre o Curso</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a id="textnav" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Modulos</a>
+                <div class="dropdown-menu">
+                    <a id="textnav" class="dropdown-item" href="1ano.html">1° Ano</a>
+                    <a id="textnav" class="dropdown-item" href="2ano.html">2° Ano</a>
+                    <a id="textnav" class="dropdown-item" href="3ano.html">3° Ano</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a id="textnav" class="nav-link " href="carrossel.html">Imagens</a>
+            </li>
+            <li class="nav-item">
+                <a id="textnav" class="nav-link" href="faleconosco.html">Fale Conosco </a>
+            </li>
+        </ul>
+
+        <div id="card" class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-dark" style="width: 18rem; height:35rem">
+                        <img class="card-img-top" src="imagens/pfa.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Escola</h5>
+                            <p class="card-text">O curso de informática para internet é oferecido pela Etec Pedro Ferreira 
+                                Alves, escola técnica que oferece cursos abrangendo diferentes partes do mercado de trabalho, e que 
+                                conta com varos projetos em conjunto com os alunos</p>
+                        </div>
+                        <div class="card-footer bg-transparent text-right">
+                            <button type="button" class="btn btn-dark " data-toggle="modal" data-target="#modal1">Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-dark" style="width: 18rem; height:35rem">
+                        <img class="card-img-top"  src="imagens/cpss.jpg" alt="Card image cap" style="width:286px; height:214px" >
+                        <div class="card-body">
+                            <h5 class="card-title">Unidade de ensino</h5>
+                            <p class="card-text">O Centro Paula Souza administra Faculdades de Tecnologia (Fatecs) e Escolas Técnicas 
+                                (Etecs) estaduais, além das classes descentralizadas que funcionam com um ou mais cursos 
+                                técnicos sob a supervisão de uma Etec em cerca de 300 municípios paulistas.</p>
+                        </div>
+                        <div class="card-footer bg-transparent text-right">
+                            <button type="button" class="btn btn-dark " data-toggle="modal" data-target="#modal2">Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-dark" style="width: 18rem; height:35rem">
+                        <img class="card-img-top" src="imagens/alunos.jpg" alt="Card image cap" style="width:286px; height:214px" >
+                        <div class="card-body">
+                            <h5 class="card-title">Alunos</h5>
+                            <p class="card-text">Os alunos que cursam informática para internet contam com uma ampla grade curricular oque garante uma certa flexibilidade no mercado de trabalho, alem de também ter a interatividade social, com projetos em prol da comunidade </p>
+                        </div>
+                        <div class="card-footer bg-transparent text-right">
+                            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal3">Mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade bd-example-modal-lg" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal1Label">Etec Pedro Ferreira Alves</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="imagens/EtecPFAlves2.jpg" alt=""/><p>
+                        A Etec Pedro Ferreira Alves é uma das escolas técnicas vinculadas ao Centro paula Souza,
+                            ela esta localziada no municipio de Mogi Mirim, oferecendo varios cursos técnicos com integração
+                            ao ensino médio, capacitando assim diversos jovens para o mercado de trabalho, contribuindo 
+                            para a formação e o desenvolvimeto da região no meio técnologico e social, ja que a ETEC não tem 
+                            apenas a intenção de formar profissionais, mas também cidadões, do ponto de vista ético e moral, aqui as lições 
+                            não ficam somente dentro da sala de aula, ficam para a vida. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="modal fade bd-example-modal-lg" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal2Label">Centro Paula Souza</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="imagens/cps.png" alt=""/> <br/>
+                        O Centro Estadual de Educação Tecnológica Paula Souza (CEETEPS) é uma autarquia do governo do estado de São Paulo, 
+                        vinculada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação do Estado de São Paulo, que administra
+                        as 220 Escolas Técnicas (ETEC's) e as 66 Faculdades de Tecnologia (FATEC's) do estado. Foi criado pelo governador 
+                        Abreu Sodré em 1969. O CEETEPS possui mais de 290 mil estudantes matriculados em cursos técnicos e superiores.
+                        O órgão nasceu com intuito de gerar os primeiros cursos superiores de tecnologia, porém, ao longo do tempo, o Centro 
+                        realizou projetos de Educação Tecnológica para o ensino médio também. A intenção é expandir o ensino profissional da área 
+                        de tecnologia para diferentes regiões do Estado de São Paulo.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal3Label">Alunos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="imagens/TecnicoInformaticaInternet.jpg" alt=""/>
+                       <p>
+                       Os alunos da ETEC não buscam apenas tirar uma nota regular para passar de ano, mas buscam absorver
+                        e utilizar de maneira produtiva este conhecimento, tanto para beneficio próprio quanto para aqueles que 
+                        estão a sua volta, buscando a troca de informações para a contrução de uma sociedade produtiva e funcional,
+                       não se limitando apenas a sala de aula.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer id="rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"><img id="imgrodape" src="imagens/etecpng.png" alt=""/></div>
+                    
+                    <div class="col-md-6">
+                        <p id="font" > Rua Ariovaldo Silveira Franco, 237 - Mirante<br/>
+                        Mogi Mirim/SP- CEP:13000-165  </p><hr id="hr" ><p id="font">
+                             <p id="font"> Redes Sociais para contato:<br/><abbr title="Telefone: (19) 3862-0888">F: 3862-0888 </abbr></p><p>
+                            <a href="https://www.facebook.com" target="_blank">Facebook</a><a>-------</a>
+                       <a href="#">Site da Escola</a>  </p> 
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                </div>
+        </footer>
+    </body>
+</html>
